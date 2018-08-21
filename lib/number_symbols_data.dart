@@ -18,7 +18,7 @@ library number_symbol_data;
 
 import "number_symbols.dart";
 
-Map numberFormatSymbols = <String, NumberSymbols>{
+var numberFormatSymbols = <String, NumberSymbols>{
   // Number formatting symbols for locale af.
   "af": new NumberSymbols(
       NAME: "af",
